@@ -7,6 +7,6 @@ sudo mv go /usr/local
 
 rm go1.14.linux-amd64.tar.gz
 
-echo "GOROOT=/usr/local/go" >> ~/.profile 
-echo "export GOPATH=$HOME/go" >> ~/.profile 
-echo "export PATH=$GOPATH/bin:$GOROOT/bin:$PATH" >> ~/.profile 
+echo "GOROOT=/usr/local/go" >> ~/.bashrc
+echo "export GOPATH=$HOME/go" >> ~/.bashrc
+echo "export PATH=\$GOPATH/bin:\$GOROOT/bin:\$PATH" >> ~/.bashrc
